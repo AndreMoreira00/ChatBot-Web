@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="chat" class="chat-container">
+
+        <div class="chat-header">
+            <img class="icon_perfil" src="images/icon_perfil.png" alt="perfil">
+            <h3>Chat Bot</h3>
+        </div>
+
+        <div class="chat-messages" id="chat-messages">
+            <div class="container-bot">
+                <img class="icon_perfil_chat" src="images/icon_perfil.png" alt="perfil">
+                <div class="message-chat">Olá</div>
+            </div>
+        </div>
+
+        <div class="chat-input">
+            <input type="text" id="message-input" placeholder="Type your message..." autocomplete="off">
+            <button id="send-button">Send</button>
+        </div>
+
+    </div>
+
+    <div>
+      <button id="bd"><img id="bd_image" class="bd_image" src="images/icon.svg" alt="chat"></button>
+    </div>
+    
+    <script src="src/open_chat.js"></script>
+    <script type="module" src="src/send_message.js"></script>
+</body>
+</html>
