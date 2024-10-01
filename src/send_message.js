@@ -1,8 +1,7 @@
 // API GEMINI
 import { GoogleGenerativeAI } from 'https://cdn.skypack.dev/@google/generative-ai';
 
-
-const genAI = new GoogleGenerativeAI("YOUR API KEY");
+const genAI = new GoogleGenerativeAI("AIzaSyDlw1KM1SI2F3JwhMpnvu77JV2MeVSvc-Q");
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 // HTML Components
