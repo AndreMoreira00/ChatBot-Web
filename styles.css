@@ -199,7 +199,7 @@ body {
 
 @media (max-width: 480px) {
   .chat-container {
-    width: 80%; 
+    width: 80%;
   }
 }
 
@@ -243,7 +243,9 @@ body {
 
 @media (max-height: 480px) {
   .chat-container {
-    height: 75%; 
+    height: 95%; 
+    position: absolute;
+    bottom: 1%;
   }
   .chat-messages{
     height: 90%;
@@ -257,11 +259,16 @@ body {
   .chat-input button{
     width: 30%;
   }
+  #bd{
+    visibility: collapse;
+  }
 }
 
 @media (max-height: 375px) {
   .chat-container {
-    height: 70%; 
+    height: 95%; 
+    position: absolute;
+    bottom: 1%;
   }
   .chat-messages{
     height: 90%;
