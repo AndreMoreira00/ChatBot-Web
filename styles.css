@@ -135,6 +135,21 @@ body {
   display: inline-flex;
 }
 
+.x{
+  visibility: collapse;
+  position: fixed;
+  text-align: right; 
+  border-style: none;
+  background: none;
+  right: 35px;
+  margin: 1px;
+}
+
+.x-image{
+  width: 15px;
+  height: 15px;
+}
+
 /* Loader */
 .loader {
   width: 30px;
@@ -241,7 +256,7 @@ body {
   }
 }
 
-@media (max-height: 480px) {
+@media (max-height: 479px) {
   .chat-container {
     height: 95%; 
     position: absolute;
@@ -261,6 +276,9 @@ body {
   }
   #bd{
     visibility: collapse;
+  }
+  .x{
+    visibility: visible;
   }
 }
 
